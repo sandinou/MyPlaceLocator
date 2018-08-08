@@ -1,3 +1,5 @@
+# MyPlaceLocator
+
 My Places Locator gives integrated review results from Google Places. It has outstanding search feature that helps to set location and finding places anywhere in world.
 
 My Places Locator provides features to mark places as favorite and have quick reference for future use. Place Locator also maintains recently viewed places.
