@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">MyPlaceLocator</string>
+
+    <string name="google_key">AIzaSyCh7O3ZPLFsxAdcqWxmC21Gz3Mn45eJ0Co</string>
+
+
+    <!-- TODO:Main Menu -->
+    <string name="history">History</string>
+    <string name="my_favorites_adresses">My favorites adresses</string>
+    <string name="settings">Settings</string>
+
+
+    <string name="search_title">Where is there?</string>
+    <string name="favorite_title">My favorite places</string>
+    <string name="history_title">My history search</string>
+    <string name="empy_place_search">You did not enter a place to search</string>
+    <string name="distance">distance</string>
+    <string name="address">address</string>
+    <string name="name">name</string>
+    <string name="near_me">Near Me</string>
+    <string name="search_icon">search icon</string>
+    <string name="network_connection">Network Connection</string>
+    <string name="internet_connection_unavailable">Your internet connection is not available, please connect"</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="enable_location_msg">Location is not enable. Do you want to go to settings menu?</string>
+    <string name="image_place">image place</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="call">Call</string>
+    <string name="website">WebSite</string>
+    <string name="textview">TextView</string>
+    <string name="delete_all">Delete all</string>
+    <string name="search">search</string>
+    <string name="my_history">My history</string>
+    <string name="delete_my_history">Delete my history</string>
+    <string name="delete_all_favorites">Delete all favorites</string>
+    <string name="web_logo">web logo</string>
+    <string name="save_logo">save logo</string>
+    <string name="phone_logo">phone logo</string>
+    <string name="share_logo">share logo</string>
+    <string name="address_string_phone_logo">address @string/phone_logo</string>
+    <string name="rate_image">rate image</string>
+    <string name="my_menu">My Menu</string>
+    <string name="delete_alert_dialog">DELETE</string>
+    <string name="favorite_delete_message">Are you sure to delete this place from your favorites?</string>
+    <string name="favorite_alldelete_message">Are you sure to delete all your favorites?</string>
+    <string name="history_delete">Are you sure to delete your history?</string>
+    <string name="alert_dialog_positive">YES</string>
+    <string name="alert_dialog_negative">NO</string>
+    <string name="cancel_delete_favorite">You canceled to delete this favorite place</string>
+    <string name="cancel_delete_allfavorites">You canceled to delete all your favorites places</string>
+    <string name="cancel_delete_history">You canceled to delete your history</string>
+    <string name="add_toFavorites">Place added to your favorites places</string>
+    <string name="failed_request">Impossible to access to your request without internet connection, \nplease connect</string>
+    <string name="failed_communication">Communication network is unavailable, please retry later or check your cellular reception</string>
+    <string name="unrecoverable_data">Unable to retrieve data, please retry later</string>
+    <string name="no_website">This place has no web site</string>
+    <string name="no_phone">This place has no phone number</string>
+
+    <string name="search_impossible">Search from history impossible !</string>
+    <string name="no_history_search">You didn\'t search anything without internet connection, please connect you.\n</string>
+    <string name="no_connection">You didn\'t connect to internet.\nYou will return to the last search</string>
+
+    <string name="cable_connected">Power Cable \nConnected</string>
+    <string name="cable_disconnected">Power Cable \nDisconnected</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="rate">rate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myplacelocator.ActivitiesAndFragments.SearchListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        app:titleMargin="2dp"
+        android:layout_above="@+id/searchRV" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        tools:ignore="UselessParent"
+        android:id="@+id/searchLL">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/searchET"
+            android:layout_weight="2.5"
+            android:layout_gravity="center" />
+
+        <CheckBox
+            android:text="@string/near_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/nearMeCB"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:drawableBottom="?android:attr/listChoiceIndicatorMultiple"
+            android:button="@null"
+            android:gravity="center"
+            android:textStyle="normal|bold" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_search_white_36dp"
+            android:id="@+id/searchIV"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/search_icon" />
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/searchRV"
+        android:layout_below="@+id/searchLL"
+        android:layout_marginTop="10dp"
+        />
+
+    <ProgressBar
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loading"
+        android:indeterminate="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+</RelativeLayout>
+
+

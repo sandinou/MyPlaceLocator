@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Home"
+        android:id="@+id/item_home"
+        android:icon="@drawable/home" />
+    <item
+        android:id="@+id/item_settings"
+        android:checkable="true"
+        android:title="@string/settings"
+        android:icon="@android:drawable/ic_menu_preferences" />
+    <item
+        android:id="@+id/item_favorites"
+        android:checkable="true"
+        android:title="@string/my_favorites_adresses"
+        android:icon="@drawable/fav" />
+
+    <item
+        android:id="@+id/item_history"
+        android:checkable="true"
+        android:title="@string/my_history"
+        android:icon="@android:drawable/ic_menu_recent_history" />
+    <item android:title="@string/delete_all_favorites"
+        android:id="@+id/item_delete_all_favorites"
+        android:icon="@android:drawable/ic_menu_delete" />
+    <item android:title="@string/delete_my_history"
+        android:id="@+id/item_delete_all_history"
+        android:icon="@android:drawable/ic_menu_delete" />
+
+
+</menu>
